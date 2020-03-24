@@ -49,3 +49,19 @@
   width: 100vw;
   background-color: #f08a4b;
 }
+@media (max-width:700px){
+   #main{
+     flex-direction: column;
+
+   }
+   #articles{
+     height: 70%;
+     width: 100%;
+   }
+}
+
+@media(max-with: 1100px){
+#main{
+  flex-direction: column;
+}
+}
